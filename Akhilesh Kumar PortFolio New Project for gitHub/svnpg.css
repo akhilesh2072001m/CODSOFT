@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+    background-color: azure;
+}
+body{
+    background: url("https://svssk.com/wp-content/uploads/2024/01/Group-of-Institutions-Banner-Img.webp");
+    background-size: cover;
+
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    /* background-color: aqua; */
+  
+}
+.logo img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    box-shadow:2px 1px 19px red;
+    margin: 20px;
+}
+h2{
+
+    margin: 2vw;
+
+}
+.header ul{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    gap:5vw;
+    margin-top: 3vw;
+    margin-left: 15vw;
+    list-style-type: none;
+    font-size: 1.5rem;
+
+    
+}
+.header a{
+    text-decoration: none;
+    color:#363637 ;
+   
+    font-weight: 600;
+    
+}
+.header a:hover{
+    color: #eb4690
+}
+
+#login{
+    margin-left: 17vw;
+    background-color: lightseagreen;
+    padding: 30px;
+    border-radius: 50% ;
+    color: #fff;
+    position: absolute;
+    right: 50px;
+    top: 20px;
+    object-fit: contain;
+}
+#login:hover{
+    text-shadow: 1px 1px 3px white;
+}
+.content{
+
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+    
+}
+.content h2{
+    font-size: 50px;
+    transform: scale(1.9);
+    color:#4700ed;
+    text-shadow: 1px 2px 3px white;
+    
+    
+}
+.content span{
+    color: green;
+    animation: textAnimate 10s infinite;
+    
+}
+#resize{
+    font-size: 50px;
+    color:#eb4646;
+    /* color:#4700ed; */
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    text-shadow: 1px 2px 3px white;
+    
+}
+@keyframes textAnimate {
+    0%{
+        
+        color: RED;
+    }
+    25%{
+        
+        color: rgb(44, 235, 1);
+    }
+    50%{
+        
+        color: rgb(17, 0, 255);
+    }
+    75%{
+        
+        color: rgb(0, 174, 255);
+    }
+    100%{
+        
+        color: rgb(255, 0, 251);
+    }
+}
